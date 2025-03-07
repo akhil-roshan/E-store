@@ -1,0 +1,115 @@
+.BannerParentDiv{
+    color: white;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BackgroundImage{
+    background-image: url('../../../assets/Banner_img.png');
+    background-size: 100% 510px ;
+    margin: 0em;
+    padding: 0em;
+    height: 78vh;
+    width: 100vw;
+   
+}
+
+.BannerChildDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.Banner_Buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    
+}
+
+.Title1{
+    font-size: 55px;
+    text-shadow: 0px 0px 12px #242323;
+}
+
+.Title2{
+    font-size: 30px;
+    text-shadow: 0px 0px 12px #242323;
+}
+
+.Button_Explore{
+    color: rgb(44, 42, 42);
+    height: 50px;
+    width:  150px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 1rem;
+    font-weight: bolder;
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Button_Explore:hover{
+    color: white;
+    background-color: #000;
+}
+
+.Button_Cart{
+    color: rgb(44, 42, 42);
+    height: 50px;
+    width:  150px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 1rem;
+    font-weight: bolder;
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Button_Cart:hover{
+    color: white;
+    background-color: #2ff108;
+}
+
+#cart-logo{
+    width: 25px;
+    height: 25px;
+}
+
+#explore-logo{
+    width: 25px;
+    height: 25px;
+}
+
+.SearchBar{
+    padding-top: 10vh;
+    width: 20%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.MenuBar{
+    display: flex;
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 18vh;
+    
+}
+

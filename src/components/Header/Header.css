@@ -1,0 +1,59 @@
+
+.ParentDiv{
+    align-items: center; 
+    padding: 10px;
+    background: none;
+    display: flex;
+    height: 40px;
+    background-color: rgb(105, 45, 44);
+    background: linear-gradient(90deg,rgba(105,45,44,1)0%,
+    rgb(145, 67, 65) 30%,
+    rgb(155, 69, 66) 38%,
+    rgba(154, 73, 72, 1) 8%,
+    rgba(175, 85, 85, 1)90%);
+}
+
+.ChildDiv{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.logo{
+    font-size: 20px;
+    align-items: center;
+}
+
+.placeSearch{
+    color: antiquewhite;
+}
+
+.loginPage{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 1rem;
+}
+
+#profile-icon{
+    width: 25px;
+    height: 25px;
+    color: #faf3f3;
+}
+
+.fade_bottom{
+    height: 7.4rem;
+    background-image: linear-gradient(180deg,transparent,rgba(37,37,37,.61),#111);
+}
+
+.SearchBar1{
+    width: 20vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 200px;
+
+}
