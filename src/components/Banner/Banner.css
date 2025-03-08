@@ -9,7 +9,7 @@
 
 .BackgroundImage{
     background-image: url('../../../assets/Banner_img.png');
-    background-size: 100% 510px ;
+    background-size: 100% 100% ;
     margin: 0em;
     padding: 0em;
     height: 78vh;
@@ -21,7 +21,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 85px;
+    padding-left: 35px;
 }
 
 .Banner_Buttons{
@@ -109,7 +110,7 @@
     display: flex;
     font-size: medium;
     font-weight: bold;
-    margin-top: 18vh;
-    
+    margin-top: 100px;
+    padding-left: 8px;
 }
 
