@@ -1,16 +1,23 @@
+*{
+    box-sizing: border-box;
+}
 
 .ParentDiv{
+    position: fixed;
+    z-index: 99;
     align-items: center; 
-    padding: 10px;
+    padding: 15px;
     background: none;
     display: flex;
-    height: 40px;
+    height: 45px;
+    width: 100%;
     background-color: rgb(105, 45, 44);
     background: linear-gradient(90deg,rgba(105,45,44,1)0%,
     rgb(145, 67, 65) 30%,
     rgb(155, 69, 66) 38%,
     rgba(154, 73, 72, 1) 8%,
     rgba(175, 85, 85, 1)90%);
+ 
 }
 
 .ChildDiv{
@@ -19,6 +26,14 @@
     justify-content: space-between;
     align-items: center;
     color: white;
+}
+
+@media (max-width: 768px) {
+    .ParentDiv{
+        padding: 15px;
+        padding-top: 15px;
+    }
+   
 }
 
 .logo{

@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+.appfooter{
+    color: black;
+    background-color: beige;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    padding: 15px;
+    
+}
+
+.navbuttons{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+@media (max-width : 768px) {
+    .appfooter{
+        padding: 15px;
+        padding-top: 15px;
+      
+    }
+
+}
+
+span{
+    font-size: small;
+}
