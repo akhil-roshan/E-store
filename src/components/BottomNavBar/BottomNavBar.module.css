@@ -1,13 +1,26 @@
+*{
+  box-sizing: border-box;
+}
+
 .bottomNav {
     position: fixed;
     bottom: 0;
     left: 0;
+    right: 0;
     width: 100%;
+    display: flex;
+    align-items: center;
+    height: 40px;
     background-color: #f0f0f0;
     padding: 10px 0;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+
   }
   
+.main-content {
+    padding-bottom: 60px;
+}
+
   .navContainer {
     display: flex;
     justify-content: space-around;
@@ -16,6 +29,9 @@
   }
   
   .navItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
     text-decoration: none;
     color: #333;
     padding: 8px 12px;
@@ -29,4 +45,10 @@
   
   .navItem:hover {
     background-color: #ddd;
+  }
+
+  @media (min-width: 768px) {
+    .bottomNav {
+      display: none;
+    }
   }

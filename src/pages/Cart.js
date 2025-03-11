@@ -3,7 +3,7 @@ import Header from '../components/Header/Header'
 import Banner from '../components/Banner/Banner'
 import Rowpost from '../components/Rowpost/Rowpost'
 
-function Contact() {
+function Cart() {
   return (
     <div>
       <Header />
@@ -12,4 +12,4 @@ function Contact() {
   )
 }
 
-export default Contact
+export default Cart

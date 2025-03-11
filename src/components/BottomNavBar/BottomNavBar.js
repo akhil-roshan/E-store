@@ -2,18 +2,19 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import styles from './BottomNavBar.module.css'; // Import your CSS module
-import { FaHome , FaInfoCircle, FaEnvelope} from 'react-icons/fa';
+import { CiHome, CiLogin, CiSearch, CiShoppingBasket, CiShoppingCart } from "react-icons/ci";
 
 
 function BottomNavBar() {
   const location = useLocation();
 
   const navItems = [
-    { path: '/', label: 'Home', icon: <FaHome /> },
-    { path: '/about', label: 'About', icon: <FaInfoCircle /> },
-    { path: '/contact', label: 'Contact', icon: <FaEnvelope /> },
-  ];
+    { path: '/', label: 'Home', icon: <CiHome /> },
+    { path: '/search', label: 'Search', icon: <CiSearch /> },
+    { path: '/login', label: 'Account', icon: <CiLogin /> },
+    { path: '/contact', label: 'cart', icon: <CiShoppingCart /> },
 
+  ];
   return (
     <footer className={styles.bottomNav}>
       <nav className={styles.navContainer}>
@@ -25,7 +26,8 @@ function BottomNavBar() {
               location.pathname === item.path ? styles.active : ''
             }`}
           >
-            {item.label}
+            {item.icon}
+            <span>{item.label}</span>
           </Link>
         ))}
       </nav>
