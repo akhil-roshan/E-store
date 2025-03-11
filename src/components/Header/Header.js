@@ -8,7 +8,7 @@ function Header() {
   return (
     <div className='ParentDiv'>
       <div className="ChildDiv">
-        <h1 className="logo">MENDI FANCY</h1>
+        <h1 className="logo">MEHNDI FANCY</h1>
         <div className="loginPage">
           <span>Login</span>
           <VscAccount id="profile-icon" />
